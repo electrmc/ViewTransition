@@ -25,6 +25,7 @@
     UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     
     // 如果是简单的presentViewController，那么此时的view是UIWindow上的UITransitionView
+    // containerView是有系统决定的，我们并不能决定
     UIView *containerView = transitionContext.containerView;
     
     // For a Presentation:

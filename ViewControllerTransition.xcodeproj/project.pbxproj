@@ -127,10 +127,10 @@
 		4C856C891C78CC9D00ECF69D /* InteractiveController */ = {
 			isa = PBXGroup;
 			children = (
-				4C856CAB1C81A91F00ECF69D /* InteractiveViewController.h */,
-				4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */,
 				4C856C901C78CC9D00ECF69D /* InteractiveViewControllerOne.h */,
 				4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */,
+				4C856CAB1C81A91F00ECF69D /* InteractiveViewController.h */,
+				4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */,
 			);
 			path = InteractiveController;
 			sourceTree = "<group>";

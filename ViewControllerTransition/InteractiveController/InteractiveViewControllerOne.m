@@ -9,13 +9,20 @@
 #import "InteractiveViewControllerOne.h"
 #import "InteractiveViewController.h"
 #import "PresentTranaitioningDelegate.h"
+#import "InteractiveTransitioningDelegate.h"
+
+@interface InteractiveViewControllerOne()
+@property (nonatomic, strong) InteractiveTransitioningDelegate *transitionDelegate;
+@end
 
 @implementation InteractiveViewControllerOne
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
-    
+    self.title = @"InteractiveView";
+    _transitionDelegate = [[InteractiveTransitioningDelegate alloc]init];
+
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(100, 100, 100, 50)];
     [btn setTitle:@"present" forState:UIControlStateNormal];
@@ -24,9 +31,10 @@
 }
 
 - (void)btnPresent{
-    PresentTranaitioningDelegate *delegate = [[PresentTranaitioningDelegate alloc]init];
     InteractiveViewController *vc = [[InteractiveViewController alloc]init];
-    vc.transitioningDelegate = delegate;
+    self.transitionDelegate.gestureRecognizer = nil;
+    self.transitionDelegate.targetEdge = UIRectEdgeRight;
+    vc.transitioningDelegate = self.transitionDelegate;
     [self presentViewController:vc animated:YES completion:nil];
 }
 

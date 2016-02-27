@@ -20,32 +20,37 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor lightGrayColor];
     
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [btn setFrame:CGRectMake(100, 100, 100, 50)];
+    [btn setTitle:@"btnDismiss" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnDismiss) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
     _interactiveRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(gestureRecognizeDidUpdate:)];
     self.interactiveRecognizer.edges = UIRectEdgeLeft;
     [self.view addGestureRecognizer:self.interactiveRecognizer];
 }
 
+- (void)btnDismiss{
+    if ([self.transitioningDelegate isKindOfClass:[InteractiveTransitioningDelegate class]]) {
+        InteractiveTransitioningDelegate *transitionDelegate = (InteractiveTransitioningDelegate*)self.transitioningDelegate;
+        transitionDelegate.targetEdge = UIRectEdgeLeft;
+        transitionDelegate.gestureRecognizer = nil;
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (void)gestureRecognizeDidUpdate:(UIScreenEdgePanGestureRecognizer*)gesture{
     if (gesture.state == UIGestureRecognizerStateBegan) {
         if (gesture.edges == UIRectEdgeLeft) {
-            [self customDismissViewControllerAnimated:YES completion:nil];
-        } else {
-            
+            if ([self.transitioningDelegate isKindOfClass:[InteractiveTransitioningDelegate class]]) {
+                InteractiveTransitioningDelegate *transitionDelegate = (InteractiveTransitioningDelegate*)self.transitioningDelegate;
+                transitionDelegate.targetEdge = UIRectEdgeLeft;
+                transitionDelegate.gestureRecognizer = gesture;
+            }
+            [self dismissViewControllerAnimated:YES completion:nil];
         }
     }
 }
 
-- (void)customDismissViewControllerAnimated: (BOOL)flag completion: (void (^ __nullable)(void))completion {
-    self.transitioningDelegate = self.transitionDelegate;
-    [self dismissViewControllerAnimated:flag completion:completion];
-}
-
-- (InteractiveTransitioningDelegate*)transitionDelegate{
-    if (!_transitionDelegate) {
-        _transitionDelegate = [[InteractiveTransitioningDelegate alloc]init];
-        _transitionDelegate.gestureRecognizer = self.interactiveRecognizer;
-        _transitionDelegate.targetEdge = UIRectEdgeLeft;
-    }
-    return _transitionDelegate;
-}
 @end

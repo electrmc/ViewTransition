@@ -17,17 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor blueColor];
+    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(100, 100, 100, 50)];
-    [btn setTitle:@"present" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(btnPresent) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"dismiss" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnDismiss) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }
 
-- (void)btnPresent {
-    PresentViewControllerOne *vc = [[PresentViewControllerOne alloc]init];
-    [self presentViewController:vc animated:YES completion:nil];
+- (void)btnDismiss {
+    [self  dismissViewControllerAnimated:YES completion:nil];
 }
-
 @end
 

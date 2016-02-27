@@ -11,14 +11,17 @@
 #import "PresentTranaitioningDelegate.h"
 
 @interface PresentViewControllerOne ()<UIViewControllerTransitioningDelegate>
-
+@property (nonatomic, strong) PresentTranaitioningDelegate *transitionDelegate;
 @end
 
 @implementation PresentViewControllerOne
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
+    self.title = @"one";
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    _transitionDelegate = [[PresentTranaitioningDelegate alloc]init];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(100, 100, 100, 50)];
@@ -31,9 +34,8 @@
     // 此时只需要设置被弹出视图的transitioningDelegate即可
     // 因为所有的动画都是弹出视图来实现的，包含出现动画和消失动画
     // presentedViewController只需要提供个背景就行
-    PresentTranaitioningDelegate *delegate = [[PresentTranaitioningDelegate alloc]init];
     PresentViewControllerTwo *vc = [[PresentViewControllerTwo alloc]init];
-    vc.transitioningDelegate = delegate;
+    vc.transitioningDelegate = self.transitionDelegate;
     [self presentViewController:vc animated:YES completion:nil];
 }
 @end

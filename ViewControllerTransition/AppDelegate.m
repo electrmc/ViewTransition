@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "TabBarViewController.h"
 #import "NavigationViewController.h"
-#import "PresentViewControllerThree.h"
+#import "PresentViewControllerOne.h"
 #import "InteractiveViewControllerOne.h"
 
 @interface AppDelegate ()
@@ -21,10 +21,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    PresentViewControllerThree *presentVC = [[PresentViewControllerThree alloc]init];
+    PresentViewControllerOne *presentVC = [[PresentViewControllerOne alloc]init];
     NavigationViewController *navVC1 = [[NavigationViewController alloc]initWithRootViewController:presentVC];
     
     InteractiveViewControllerOne *interactiveVC = [[InteractiveViewControllerOne alloc]init];
+    interactiveVC.title = @"InteractiveView";
     NavigationViewController *navVC2 = [[NavigationViewController alloc]initWithRootViewController:interactiveVC];
     TabBarViewController *tabBarVC = [[TabBarViewController alloc]init];
     tabBarVC.viewControllers = @[navVC1,navVC2];

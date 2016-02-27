@@ -10,6 +10,4 @@
 
 @interface InteractiveViewController : UIViewController
 
-- (void)customDismissViewControllerAnimated: (BOOL)flag completion: (void (^ __nullable)(void))completion NS_AVAILABLE_IOS(5_0);
-
 @end
