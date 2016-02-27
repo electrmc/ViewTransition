@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
+#import "NavigationViewController.h"
+#import "PresentViewControllerThree.h"
+#import "InteractiveViewControllerOne.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    PresentViewControllerThree *presentVC = [[PresentViewControllerThree alloc]init];
+    NavigationViewController *navVC1 = [[NavigationViewController alloc]initWithRootViewController:presentVC];
+    
+    InteractiveViewControllerOne *interactiveVC = [[InteractiveViewControllerOne alloc]init];
+    NavigationViewController *navVC2 = [[NavigationViewController alloc]initWithRootViewController:interactiveVC];
+    TabBarViewController *tabBarVC = [[TabBarViewController alloc]init];
+    tabBarVC.viewControllers = @[navVC1,navVC2];
+    self.window.rootViewController = tabBarVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

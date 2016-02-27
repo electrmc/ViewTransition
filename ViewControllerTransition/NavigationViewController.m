@@ -1,27 +1,24 @@
 //
-//  ViewController.m
+//  NavigationViewController.m
 //  ViewControllerTransition
 //
 //  Created by MiaoChao on 16/2/20.
 //  Copyright © 2016年 MiaoChao. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NavigationViewController.h"
 
-@interface ViewController ()
+@interface NavigationViewController ()
 
 @end
 
-@implementation ViewController
-
+@implementation NavigationViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"1";
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 @end

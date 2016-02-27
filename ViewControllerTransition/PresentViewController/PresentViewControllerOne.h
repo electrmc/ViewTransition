@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PresentViewControllerOne.h
 //  ViewControllerTransition
 //
 //  Created by MiaoChao on 16/2/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PresentViewControllerOne : UIViewController
 
 @end
-

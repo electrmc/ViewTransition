@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		4C856C461C77857300ECF69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C451C77857300ECF69D /* main.m */; };
 		4C856C491C77857300ECF69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C481C77857300ECF69D /* AppDelegate.m */; };
-		4C856C4C1C77857300ECF69D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C4B1C77857300ECF69D /* ViewController.m */; };
-		4C856C4F1C77857300ECF69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C856C4D1C77857300ECF69D /* Main.storyboard */; };
 		4C856C511C77857300ECF69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C856C501C77857300ECF69D /* Assets.xcassets */; };
-		4C856C541C77857300ECF69D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C856C521C77857300ECF69D /* LaunchScreen.storyboard */; };
+		4C856C5D1C77872700ECF69D /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C5C1C77872700ECF69D /* NavigationViewController.m */; };
+		4C856C601C77874D00ECF69D /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C5F1C77874D00ECF69D /* TabBarViewController.m */; };
+		4C856C721C78670000ECF69D /* PresentViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C6E1C78670000ECF69D /* PresentViewControllerOne.m */; };
+		4C856C731C78670000ECF69D /* PresentViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C701C78670000ECF69D /* PresentViewControllerTwo.m */; };
+		4C856C761C78729100ECF69D /* PresentViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C751C78729100ECF69D /* PresentViewControllerThree.m */; };
+		4C856C971C78CC9D00ECF69D /* InteractiveViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */; };
+		4C856CAD1C81A91F00ECF69D /* InteractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */; };
+		4C856CBE1C81F25800ECF69D /* InteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CB41C81F25800ECF69D /* InteractiveAnimator.m */; };
+		4C856CBF1C81F25800ECF69D /* InteractiveTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CB61C81F25800ECF69D /* InteractiveTransitioningDelegate.m */; };
+		4C856CC01C81F25800ECF69D /* PercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CB81C81F25800ECF69D /* PercentDrivenInteractiveTransition.m */; };
+		4C856CC11C81F25800ECF69D /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CBB1C81F25800ECF69D /* PresentAnimator.m */; };
+		4C856CC21C81F25800ECF69D /* PresentTranaitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CBD1C81F25800ECF69D /* PresentTranaitioningDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,32 @@
 		4C856C451C77857300ECF69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C856C471C77857300ECF69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C856C481C77857300ECF69D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C856C4A1C77857300ECF69D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C856C4B1C77857300ECF69D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4C856C4E1C77857300ECF69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C856C501C77857300ECF69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C856C531C77857300ECF69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C856C551C77857300ECF69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C856C5B1C77872700ECF69D /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		4C856C5C1C77872700ECF69D /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		4C856C5E1C77874D00ECF69D /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		4C856C5F1C77874D00ECF69D /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		4C856C6D1C78670000ECF69D /* PresentViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewControllerOne.h; sourceTree = "<group>"; };
+		4C856C6E1C78670000ECF69D /* PresentViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewControllerOne.m; sourceTree = "<group>"; };
+		4C856C6F1C78670000ECF69D /* PresentViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewControllerTwo.h; sourceTree = "<group>"; };
+		4C856C701C78670000ECF69D /* PresentViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewControllerTwo.m; sourceTree = "<group>"; };
+		4C856C741C78729100ECF69D /* PresentViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewControllerThree.h; sourceTree = "<group>"; };
+		4C856C751C78729100ECF69D /* PresentViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewControllerThree.m; sourceTree = "<group>"; };
+		4C856C901C78CC9D00ECF69D /* InteractiveViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveViewControllerOne.h; sourceTree = "<group>"; };
+		4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveViewControllerOne.m; sourceTree = "<group>"; };
+		4C856CAB1C81A91F00ECF69D /* InteractiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveViewController.h; sourceTree = "<group>"; };
+		4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveViewController.m; sourceTree = "<group>"; };
+		4C856CB31C81F25800ECF69D /* InteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimator.h; sourceTree = "<group>"; };
+		4C856CB41C81F25800ECF69D /* InteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimator.m; sourceTree = "<group>"; };
+		4C856CB51C81F25800ECF69D /* InteractiveTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransitioningDelegate.h; sourceTree = "<group>"; };
+		4C856CB61C81F25800ECF69D /* InteractiveTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransitioningDelegate.m; sourceTree = "<group>"; };
+		4C856CB71C81F25800ECF69D /* PercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		4C856CB81C81F25800ECF69D /* PercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		4C856CBA1C81F25800ECF69D /* PresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		4C856CBB1C81F25800ECF69D /* PresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		4C856CBC1C81F25800ECF69D /* PresentTranaitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentTranaitioningDelegate.h; sourceTree = "<group>"; };
+		4C856CBD1C81F25800ECF69D /* PresentTranaitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTranaitioningDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +89,14 @@
 			children = (
 				4C856C471C77857300ECF69D /* AppDelegate.h */,
 				4C856C481C77857300ECF69D /* AppDelegate.m */,
-				4C856C4A1C77857300ECF69D /* ViewController.h */,
-				4C856C4B1C77857300ECF69D /* ViewController.m */,
-				4C856C4D1C77857300ECF69D /* Main.storyboard */,
+				4C856C5E1C77874D00ECF69D /* TabBarViewController.h */,
+				4C856C5F1C77874D00ECF69D /* TabBarViewController.m */,
+				4C856C5B1C77872700ECF69D /* NavigationViewController.h */,
+				4C856C5C1C77872700ECF69D /* NavigationViewController.m */,
+				4C856CB11C81F25800ECF69D /* TransitioningDelegate */,
+				4C856C891C78CC9D00ECF69D /* InteractiveController */,
+				4C856C6A1C78670000ECF69D /* PresentViewController */,
 				4C856C501C77857300ECF69D /* Assets.xcassets */,
-				4C856C521C77857300ECF69D /* LaunchScreen.storyboard */,
 				4C856C551C77857300ECF69D /* Info.plist */,
 				4C856C441C77857300ECF69D /* Supporting Files */,
 			);
@@ -77,6 +109,63 @@
 				4C856C451C77857300ECF69D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C856C6A1C78670000ECF69D /* PresentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C856C6D1C78670000ECF69D /* PresentViewControllerOne.h */,
+				4C856C6E1C78670000ECF69D /* PresentViewControllerOne.m */,
+				4C856C6F1C78670000ECF69D /* PresentViewControllerTwo.h */,
+				4C856C701C78670000ECF69D /* PresentViewControllerTwo.m */,
+				4C856C741C78729100ECF69D /* PresentViewControllerThree.h */,
+				4C856C751C78729100ECF69D /* PresentViewControllerThree.m */,
+			);
+			path = PresentViewController;
+			sourceTree = "<group>";
+		};
+		4C856C891C78CC9D00ECF69D /* InteractiveController */ = {
+			isa = PBXGroup;
+			children = (
+				4C856CAB1C81A91F00ECF69D /* InteractiveViewController.h */,
+				4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */,
+				4C856C901C78CC9D00ECF69D /* InteractiveViewControllerOne.h */,
+				4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */,
+			);
+			path = InteractiveController;
+			sourceTree = "<group>";
+		};
+		4C856CB11C81F25800ECF69D /* TransitioningDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4C856CB21C81F25800ECF69D /* InteractiveTransition */,
+				4C856CB91C81F25800ECF69D /* PresentTranaition */,
+			);
+			path = TransitioningDelegate;
+			sourceTree = "<group>";
+		};
+		4C856CB21C81F25800ECF69D /* InteractiveTransition */ = {
+			isa = PBXGroup;
+			children = (
+				4C856CB31C81F25800ECF69D /* InteractiveAnimator.h */,
+				4C856CB41C81F25800ECF69D /* InteractiveAnimator.m */,
+				4C856CB51C81F25800ECF69D /* InteractiveTransitioningDelegate.h */,
+				4C856CB61C81F25800ECF69D /* InteractiveTransitioningDelegate.m */,
+				4C856CB71C81F25800ECF69D /* PercentDrivenInteractiveTransition.h */,
+				4C856CB81C81F25800ECF69D /* PercentDrivenInteractiveTransition.m */,
+			);
+			path = InteractiveTransition;
+			sourceTree = "<group>";
+		};
+		4C856CB91C81F25800ECF69D /* PresentTranaition */ = {
+			isa = PBXGroup;
+			children = (
+				4C856CBA1C81F25800ECF69D /* PresentAnimator.h */,
+				4C856CBB1C81F25800ECF69D /* PresentAnimator.m */,
+				4C856CBC1C81F25800ECF69D /* PresentTranaitioningDelegate.h */,
+				4C856CBD1C81F25800ECF69D /* PresentTranaitioningDelegate.m */,
+			);
+			path = PresentTranaition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C856C541C77857300ECF69D /* LaunchScreen.storyboard in Resources */,
 				4C856C511C77857300ECF69D /* Assets.xcassets in Resources */,
-				4C856C4F1C77857300ECF69D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,32 +237,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C856C4C1C77857300ECF69D /* ViewController.m in Sources */,
+				4C856C601C77874D00ECF69D /* TabBarViewController.m in Sources */,
+				4C856CAD1C81A91F00ECF69D /* InteractiveViewController.m in Sources */,
+				4C856CC11C81F25800ECF69D /* PresentAnimator.m in Sources */,
+				4C856CC01C81F25800ECF69D /* PercentDrivenInteractiveTransition.m in Sources */,
 				4C856C491C77857300ECF69D /* AppDelegate.m in Sources */,
+				4C856C971C78CC9D00ECF69D /* InteractiveViewControllerOne.m in Sources */,
+				4C856C731C78670000ECF69D /* PresentViewControllerTwo.m in Sources */,
 				4C856C461C77857300ECF69D /* main.m in Sources */,
+				4C856CBF1C81F25800ECF69D /* InteractiveTransitioningDelegate.m in Sources */,
+				4C856CBE1C81F25800ECF69D /* InteractiveAnimator.m in Sources */,
+				4C856C5D1C77872700ECF69D /* NavigationViewController.m in Sources */,
+				4C856CC21C81F25800ECF69D /* PresentTranaitioningDelegate.m in Sources */,
+				4C856C721C78670000ECF69D /* PresentViewControllerOne.m in Sources */,
+				4C856C761C78729100ECF69D /* PresentViewControllerThree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4C856C4D1C77857300ECF69D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C856C4E1C77857300ECF69D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C856C521C77857300ECF69D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C856C531C77857300ECF69D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C856C561C77857300ECF69D /* Debug */ = {
@@ -264,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ViewControllerTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MiaoChao.ViewControllerTransition;
@@ -275,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ViewControllerTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MiaoChao.ViewControllerTransition;
@@ -301,6 +382,7 @@
 				4C856C5A1C77857300ECF69D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
