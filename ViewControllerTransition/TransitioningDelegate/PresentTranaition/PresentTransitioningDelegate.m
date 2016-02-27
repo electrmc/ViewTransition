@@ -1,15 +1,15 @@
 //
-//  PresentTranaitioningDelegate.m
+//  PresentTransitioningDelegate.h.m
 //  ViewControllerTransition
 //
 //  Created by MiaoChao on 16/2/27.
 //  Copyright © 2016年 MiaoChao. All rights reserved.
 //
 
-#import "PresentTranaitioningDelegate.h"
+#import "PresentTransitioningDelegate.h"
 #import "PresentAnimator.h"
 
-@implementation PresentTranaitioningDelegate
+@implementation PresentTransitioningDelegate
 
 #pragma mark - UIViewControllerTransitioningDelegate
 - (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source{

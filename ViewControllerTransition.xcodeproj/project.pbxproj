@@ -16,12 +16,12 @@
 		4C856C731C78670000ECF69D /* PresentViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C701C78670000ECF69D /* PresentViewControllerTwo.m */; };
 		4C856C761C78729100ECF69D /* PresentViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C751C78729100ECF69D /* PresentViewControllerThree.m */; };
 		4C856C971C78CC9D00ECF69D /* InteractiveViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */; };
-		4C856CAD1C81A91F00ECF69D /* InteractiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */; };
+		4C856CAD1C81A91F00ECF69D /* InteractiveViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CAC1C81A91F00ECF69D /* InteractiveViewControllerTwo.m */; };
 		4C856CBE1C81F25800ECF69D /* InteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CB41C81F25800ECF69D /* InteractiveAnimator.m */; };
 		4C856CBF1C81F25800ECF69D /* InteractiveTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CB61C81F25800ECF69D /* InteractiveTransitioningDelegate.m */; };
 		4C856CC01C81F25800ECF69D /* PercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CB81C81F25800ECF69D /* PercentDrivenInteractiveTransition.m */; };
 		4C856CC11C81F25800ECF69D /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CBB1C81F25800ECF69D /* PresentAnimator.m */; };
-		4C856CC21C81F25800ECF69D /* PresentTranaitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CBD1C81F25800ECF69D /* PresentTranaitioningDelegate.m */; };
+		4C856CC21C81F25800ECF69D /* PresentTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C856CBD1C81F25800ECF69D /* PresentTransitioningDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,8 @@
 		4C856C751C78729100ECF69D /* PresentViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewControllerThree.m; sourceTree = "<group>"; };
 		4C856C901C78CC9D00ECF69D /* InteractiveViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveViewControllerOne.h; sourceTree = "<group>"; };
 		4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveViewControllerOne.m; sourceTree = "<group>"; };
-		4C856CAB1C81A91F00ECF69D /* InteractiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveViewController.h; sourceTree = "<group>"; };
-		4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveViewController.m; sourceTree = "<group>"; };
+		4C856CAB1C81A91F00ECF69D /* InteractiveViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveViewControllerTwo.h; sourceTree = "<group>"; };
+		4C856CAC1C81A91F00ECF69D /* InteractiveViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveViewControllerTwo.m; sourceTree = "<group>"; };
 		4C856CB31C81F25800ECF69D /* InteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimator.h; sourceTree = "<group>"; };
 		4C856CB41C81F25800ECF69D /* InteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimator.m; sourceTree = "<group>"; };
 		4C856CB51C81F25800ECF69D /* InteractiveTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransitioningDelegate.h; sourceTree = "<group>"; };
@@ -53,8 +53,8 @@
 		4C856CB81C81F25800ECF69D /* PercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
 		4C856CBA1C81F25800ECF69D /* PresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
 		4C856CBB1C81F25800ECF69D /* PresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
-		4C856CBC1C81F25800ECF69D /* PresentTranaitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentTranaitioningDelegate.h; sourceTree = "<group>"; };
-		4C856CBD1C81F25800ECF69D /* PresentTranaitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTranaitioningDelegate.m; sourceTree = "<group>"; };
+		4C856CBC1C81F25800ECF69D /* PresentTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentTransitioningDelegate.h; sourceTree = "<group>"; };
+		4C856CBD1C81F25800ECF69D /* PresentTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTransitioningDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +129,8 @@
 			children = (
 				4C856C901C78CC9D00ECF69D /* InteractiveViewControllerOne.h */,
 				4C856C911C78CC9D00ECF69D /* InteractiveViewControllerOne.m */,
-				4C856CAB1C81A91F00ECF69D /* InteractiveViewController.h */,
-				4C856CAC1C81A91F00ECF69D /* InteractiveViewController.m */,
+				4C856CAB1C81A91F00ECF69D /* InteractiveViewControllerTwo.h */,
+				4C856CAC1C81A91F00ECF69D /* InteractiveViewControllerTwo.m */,
 			);
 			path = InteractiveController;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 			children = (
 				4C856CBA1C81F25800ECF69D /* PresentAnimator.h */,
 				4C856CBB1C81F25800ECF69D /* PresentAnimator.m */,
-				4C856CBC1C81F25800ECF69D /* PresentTranaitioningDelegate.h */,
-				4C856CBD1C81F25800ECF69D /* PresentTranaitioningDelegate.m */,
+				4C856CBC1C81F25800ECF69D /* PresentTransitioningDelegate.h */,
+				4C856CBD1C81F25800ECF69D /* PresentTransitioningDelegate.m */,
 			);
 			path = PresentTranaition;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C856C601C77874D00ECF69D /* TabBarViewController.m in Sources */,
-				4C856CAD1C81A91F00ECF69D /* InteractiveViewController.m in Sources */,
+				4C856CAD1C81A91F00ECF69D /* InteractiveViewControllerTwo.m in Sources */,
 				4C856CC11C81F25800ECF69D /* PresentAnimator.m in Sources */,
 				4C856CC01C81F25800ECF69D /* PercentDrivenInteractiveTransition.m in Sources */,
 				4C856C491C77857300ECF69D /* AppDelegate.m in Sources */,
@@ -248,7 +248,7 @@
 				4C856CBF1C81F25800ECF69D /* InteractiveTransitioningDelegate.m in Sources */,
 				4C856CBE1C81F25800ECF69D /* InteractiveAnimator.m in Sources */,
 				4C856C5D1C77872700ECF69D /* NavigationViewController.m in Sources */,
-				4C856CC21C81F25800ECF69D /* PresentTranaitioningDelegate.m in Sources */,
+				4C856CC21C81F25800ECF69D /* PresentTransitioningDelegate.m in Sources */,
 				4C856C721C78670000ECF69D /* PresentViewControllerOne.m in Sources */,
 				4C856C761C78729100ECF69D /* PresentViewControllerThree.m in Sources */,
 			);

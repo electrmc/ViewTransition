@@ -8,10 +8,10 @@
 
 #import "PresentViewControllerTwo.h"
 #import "PresentViewControllerThree.h"
-#import "PresentTranaitioningDelegate.h"
+#import "PresentTransitioningDelegate.h"
 
 @interface PresentViewControllerTwo ()
-@property (nonatomic, strong) PresentTranaitioningDelegate *transitionDelegate;
+@property (nonatomic, strong) PresentTransitioningDelegate *transitionDelegate;
 @end
 
 @implementation PresentViewControllerTwo
@@ -21,7 +21,7 @@
     self.title = @"Two";
     self.view.backgroundColor = [UIColor cyanColor];
     
-    _transitionDelegate = [[PresentTranaitioningDelegate alloc]init];
+    _transitionDelegate = [[PresentTransitioningDelegate alloc]init];
     
     UIButton *btnPresent = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [btnPresent setFrame:CGRectMake(100, 100, 100, 50)];

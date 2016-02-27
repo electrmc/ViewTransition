@@ -8,20 +8,20 @@
 
 #import "PresentViewControllerOne.h"
 #import "PresentViewControllerTwo.h"
-#import "PresentTranaitioningDelegate.h"
+#import "PresentTransitioningDelegate.h"
 
 @interface PresentViewControllerOne ()<UIViewControllerTransitioningDelegate>
-@property (nonatomic, strong) PresentTranaitioningDelegate *transitionDelegate;
+@property (nonatomic, strong) PresentTransitioningDelegate *transitionDelegate;
 @end
 
 @implementation PresentViewControllerOne
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"one";
+    self.title = @"NormalView";
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    _transitionDelegate = [[PresentTranaitioningDelegate alloc]init];
+    _transitionDelegate = [[PresentTransitioningDelegate alloc]init];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [btn setFrame:CGRectMake(100, 100, 100, 50)];

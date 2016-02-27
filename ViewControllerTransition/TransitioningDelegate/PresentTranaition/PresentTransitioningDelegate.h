@@ -1,5 +1,5 @@
 //
-//  InteractiveViewController.h
+//  PresentTransitioningDelegate.h.h
 //  ViewControllerTransition
 //
 //  Created by MiaoChao on 16/2/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InteractiveViewController : UIViewController
+@interface PresentTransitioningDelegate : NSObject<UIViewControllerTransitioningDelegate>
 
 @end

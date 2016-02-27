@@ -7,8 +7,8 @@
 //
 
 #import "InteractiveViewControllerOne.h"
-#import "InteractiveViewController.h"
-#import "PresentTranaitioningDelegate.h"
+#import "InteractiveViewControllerTwo.h"
+#import "PresentTransitioningDelegate.h"
 #import "InteractiveTransitioningDelegate.h"
 
 @interface InteractiveViewControllerOne()
@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor grayColor];
     self.title = @"InteractiveView";
     _transitionDelegate = [[InteractiveTransitioningDelegate alloc]init];
 
@@ -31,7 +31,7 @@
 }
 
 - (void)btnPresent{
-    InteractiveViewController *vc = [[InteractiveViewController alloc]init];
+    InteractiveViewControllerTwo *vc = [[InteractiveViewControllerTwo alloc]init];
     self.transitionDelegate.gestureRecognizer = nil;
     self.transitionDelegate.targetEdge = UIRectEdgeRight;
     vc.transitioningDelegate = self.transitionDelegate;
